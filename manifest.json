@@ -1,0 +1,26 @@
+{
+    "name": "Youtube tutorial viz",
+    "organization": "ABC Inc.",
+    "description": "A package of cool visualizations.",
+    "logoUrl": "https://url",
+    "organizationUrl": "https://url",
+    "supportUrl": "https://url",
+    "privacyPolicyUrl": "https://url",
+    "termsOfServiceUrl": "https://url",
+    "packageUrl": "https://url",
+    "devMode": true,
+    "components": [
+      {
+        "id": "myViz",
+        "name": "Youtube table viz",
+        "description": "Zoomable treemap with filter interactions",
+        "iconUrl": "https://url.png",
+        "infoUrl": "https://url",
+        "resource": {
+          "js": "gs://youtube-example01/viz.js",
+          "config": "gs://youtube-example01/config.json",
+          "css": "gs://youtube-example01/style.css"
+        }
+      }
+    ]
+  }
